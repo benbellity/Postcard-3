@@ -24,6 +24,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    // test qadd comment here to test commit
 
     @IBAction func btnSendMail(sender: UIButton) {
         lblLabel.text = "From : \(txtName.text)\nMessage: \(txtMessage.text)"
